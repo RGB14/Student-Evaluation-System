@@ -1,0 +1,148 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.landing {
+  background: #131324;
+  height: 100vh;
+}
+.login-field {
+  width: 25%;
+  margin: auto;
+  padding-top: 64px;
+}
+.login-btn {
+  padding-top: 32px;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*Landing Page
+*/
+.landing {
+  background-color: #1a1f2b;
+  height: 100vh;
+}
+.landing .title {
+  font-size: 36px;
+  line-height: 44px;
+}
+.landing .title p {
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+.landing .login-field {
+  width: 410px;
+  height: 340px;
+  color: #2c2c2c;
+  position: relative;
+  left: 10%;
+  top: 24%;
+  transform: translate(-50%, -50%);
+}
+.landing .login-field .dropdown-list {
+  padding-bottom: 32px;
+}
+.landing .login-field .login-agent {
+  width: 100%;
+}
+.landing .login-field .user-id {
+  padding-bottom: 16px;
+}
+.landing .login-field .login-btn {
+  text-align: center;
+  padding-top: 32px;
+}
+/*Dashboard
+*/
+.side-nav {
+  background: #1A262B;
+  width: 15%;
+  height: 100vh;
+  float: left;
+  position: fixed;
+  color: white;
+}
+.side-nav a {
+  color: white;
+}
+.side-nav .top-section {
+  height: 25%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 99999;
+}
+.side-nav .top-section .title {
+  text-align: center;
+  padding-top: 32px;
+}
+.side-nav .top-section .logo {
+  text-align: center;
+  padding-top: 16px;
+}
+.side-nav .bottom-section ul {
+  padding-left: 0px;
+  list-style: none;
+  text-decoration: none;
+  cursor: default;
+}
+.side-nav .bottom-section ul li {
+  padding: 16px 8px;
+}
+.side-nav .bottom-section ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 16px;
+}
+.side-nav .bottom-section ul li:hover {
+  background: #3A4549;
+}
+.right-section .log-out-btn {
+  text-align: center;
+  position: relative;
+  bottom: 34px;
+  float: right;
+}
+.right-section .log-out-btn a {
+  padding: 10px;
+  background: #b03a3a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+.right-section {
+  overflow-x: hidden;
+  width: 85%;
+  float: right;
+  height: 100vh;
+  background-color: #46516c;
+}
+.right-section .section {
+  padding: 32px;
+  height: 100%;
+}
+.right-section .section .title p {
+  color: white;
+}
+.right-section .section .info-region {
+  height: 100%;
+  background-color: #efefef;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+.bg-custom {
+  background-color: #1A262B !important;
+}
+.top-nav {
+  background-color: #1A262B;
+}
